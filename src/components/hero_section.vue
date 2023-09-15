@@ -106,23 +106,23 @@ h1.hero-h1{
     align-items: center;
     align-items: center;
   }
-  .hero-h1{
-    font-size: 10px;
+  h1.hero-h1{
+    font-size: 20px;
   
   }
   .hero-h2{
-    font-size: 30px;
+    font-size: 25px;
   
   }
    .hero-p{
-    font-size: 20px;
+    font-size: 15px;
 }
 
  
    
 }
 @media (max-width: 2500px) {
-  .secciones{
+.secciones{
   display: flex;
   flex-direction: row;
   justify-content: center;
