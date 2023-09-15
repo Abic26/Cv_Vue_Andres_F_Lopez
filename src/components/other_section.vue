@@ -15,7 +15,7 @@
     </div>
         
         <div class="absolute top-0 bottom-0 h-full w-full z-10">
-            <video class="object-center object-cover h-full w-full" src="/hello_world.mp4" autoplay muted loop></video>
+            <video class="object-center object-cover h-full w-full" autoplay muted loop></video>
         </div>
     
         </section>
