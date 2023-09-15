@@ -229,6 +229,44 @@ video{
         color: wheat;
         opacity: 0.5;
     }
+@media(max-width:2500px){
+  
+.seccion-carta{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15%;
+}
+    .titulo{
+      font-family: 'Barlow Condensed', sans-serif;
+      font-family: 'Press Start 2P', cursive;
+      font-size:30px;
+      padding-top: 17%;
+      color: wheat;
+      cursor: pointer;
+      opacity: .9;
+
+    }
+    .stack.fuente h1 {
+      padding-bottom: 5px;
+    }
+    h1{
+       padding-bottom: 5px;
+        filter: drop-shadow(15px 10px 3px #333);
+
+    }
+    .stack{
+      padding: 30px;
+    }
+
+    .cards{
+        width: 110px;
+        height: 100px;
+    }
+    .info{
+        color: wheat;
+        opacity: 0.5;
+    }
+}
 @media (max-width: 390px) {
 .titulo{
   margin-top: 70px;
@@ -277,7 +315,31 @@ div.cardas{
   }
 }
 @media (max-width: 1260px) {
- 
+  .seccion-carta{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+.cardas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  
+}
+ .carda{
+  width: auto;
+  height: auto;
+}
+.cards{
+    width: 40px;
+    height: 40px;
+    
+  }
+  .stack{
+    padding: 5px;
+  }
 }
 </style>
     

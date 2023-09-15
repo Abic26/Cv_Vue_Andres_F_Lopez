@@ -279,6 +279,127 @@ video{
         flex-direction: row;
         justify-content: center;
     }
+    @media(max-width:2500px){
+        
+.card{
+    background-color: #33333300;
+    border: none;
+    /* filter: drop-shadow(5px 10px 7px #332); */
+
+}
+.card:hover{
+    border: none;   
+    filter: drop-shadow(5px 10px 3px wheat);
+
+    /* filter: drop-shadow(7px 7px 7px #7f4ca5); */
+
+
+}
+    .titulo{
+        color: wheat;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-family: 'Press Start 2P', cursive;
+        /* opacity: .5; */
+        font-size:30px;
+        padding-top: 20%;
+    }
+    h1{
+        filter: drop-shadow(5px 5px 3px rgba(255, 255, 255, 0.576));
+
+        }
+        .titulo:hover{
+            color: wheat;
+            opacity: 100;
+
+        }
+    .titulo-carta{
+        font-family: 'Lacquer', cursive;
+        font-size:20px;
+
+    }
+    h1{
+        cursor: pointer;
+
+        color: #333;
+        opacity: .8;
+        /* filter: drop-shadow(5px 10px 7px white); */
+        padding-top: 10px;
+
+
+    }
+    .image-container {
+        border-radius: 10px;
+        padding: 10px 0 0 0;
+        position: relative;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background: rgb(127,76,165);
+        background: linear-gradient(321deg, rgba(127,76,165,1) 0%, #ecc87b 100%);
+        width: 400px; 
+        height: 250px;
+    }
+    img{
+        border-radius: 20px;
+        padding: 15px;
+        width: 100%;
+        filter: grayscale(100%);  
+          
+          
+
+    }
+    
+    .hover-image {  
+        /* padding-left: 25%; */
+        transition: transform 0.3s ease;
+        /* padding-left: 25%; */
+    }
+   
+
+    .text-overlay {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #333;
+        height: 250px;
+        color: #fff;
+        padding: 20px;
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+        cursor: pointer;
+
+        /* recordar efecto blur para las cartas
+        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(12,28,28,1) 0%, rgba(47,61,61,1) 15%, rgba(245,245,245,1) 100%);
+        transform: scale(1.1); */
+    }
+
+    .image-container:hover .hover-image {
+        transform: scale(0);
+        /* filter: blur(2.5rem); */
+    }
+
+    .image-container:hover .text-overlay {
+        transform: translateY(0);
+    }
+
+    .botonCodigos{
+        width:40px ;
+        height:30px ;
+    }
+    .botonCodigos:hover{
+        color: wheat;
+        
+    }
+    .lenguajes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    }
     @media (max-width: 768px) {
         .cartas{
          display: grid;
@@ -326,6 +447,23 @@ video{
        }
        div.text-overlay p{
         display: none;
+       }
+    }
+    @media (max-width: 1080px) {
+        .cartas{
+         display: grid;
+         grid-template-columns: repeat(2,3fr);
+        }
+        div.image-container{
+            margin-bottom: -40px;
+            
+        }
+        h1.titulo.fuente{
+            margin-top: -140px;
+        }
+       div.enlaces{
+        display: flex;
+        flex-direction: row;
        }
     }
 

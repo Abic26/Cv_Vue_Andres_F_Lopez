@@ -1,6 +1,6 @@
 <template>
     <section class="flex justify-center items-center bg-black h-screen w-screen text-center overflow-hidden relative">
-    
+    <div class="pad">
     <div class="perfil z-30 relative flex flex-row justify-start items-center pl-[5%]">
         <div class="carta flex flex-column items-center p-4">
             <img src="/abic_ai.png" alt="" width="150">
@@ -73,6 +73,7 @@
 
         </div>
       
+        </div>
     </div>
         
         <div class="absolute top-0 bottom-0 h-full w-full z-10">
@@ -83,6 +84,9 @@
 </template>
 
 <style scoped>
+.pad{
+    padding: 15%;
+}
 .skills{
     opacity: 0.5;
 
@@ -90,7 +94,7 @@
 .lo{
     background: rgb(245,222,179);
     background: linear-gradient(180deg, rgba(245,222,179,1) 20%, rgba(245,222,179,0) 100%); 
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
     /* color: wheat; */
     width: 20px;
     height: auto;
@@ -109,9 +113,12 @@ video{
 }
 .perfil{
     background-color: #333;
-    width: 70%;
-    height: 70%;
+    width: auto;
+    height:auto;
+    padding: 40px 70px;
     border-radius: 35px;
+    display: flex;
+    flex-wrap: ;
 }
 
 .carta{
@@ -121,13 +128,14 @@ video{
     height: 49%;
     color: #333;
     border-radius: 5px;
+    /* padding: 5px; */
 }
 
 .carta1{
     background-color: #333;
     color: wheat;
     margin-left: 5%;
-    width: 20%;
+    width: 23%;
     height: 70%;
 }
 .carta h1{

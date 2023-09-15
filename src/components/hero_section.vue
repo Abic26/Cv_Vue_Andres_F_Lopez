@@ -121,6 +121,36 @@ h1.hero-h1{
  
    
 }
+@media (max-width: 2500px) {
+  .secciones{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.fuente{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Press Start 2P', cursive;
+  opacity: .5;
+  color: white;
+  font-size:30px;
+}
+.fuente:hover{
+color: wheat;
+opacity: 100;
+cursor: pointer;
+}
+.animacion{
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s;
+  filter: drop-shadow(25px 15px 5px rgb(243, 243, 243));
+
+}
+.abicImg{
+  filter: drop-shadow(25px 25px 5px wheat);
+}
+}
+
 @media (max-width: 768px) {
   .secciones,div{
     display: flex;
@@ -135,6 +165,19 @@ h1.hero-h1{
 
 }
 @media (max-width: 880px) {
+  .secciones,div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+  }
+  img{
+    width: 400px;
+    height: 300px;
+  }
+
+}
+@media (max-width: 1080px) {
   .secciones,div{
     display: flex;
     flex-direction: column;
