@@ -7,8 +7,8 @@
 
           <div class="seccion-carta">
             <div class="stack">
-                <h1 class="fuente text-wheat" style="font-family: 'Lacquer', cursive; font-size: 35px;">Frontend</h1>
-                <div class="carda  flex border-solid border-2 border-white-700 p-5 rounded-5 ">
+                <h1 class="fuente text-wheat" style="font-family: 'Lacquer', cursive;">Frontend</h1>
+                <div class="carda  flex border-solid border-2 border-white-700 rounded-5 ">
                     <div class="cardas  grid gap-3 grid-cols-3 grid-rows-3">
                         <button @click="htmle">
                             <card url="./logo-html5.svg" nombre="Html" class="cards"/>
@@ -46,8 +46,8 @@
           
 
             <div class="stack">
-                <h1 class="fuente text-wheat" style="font-family: 'Lacquer', cursive; font-size: 35px;">Backend</h1>
-                <div class="carda  flex border-solid border-2 border-white-700 p-5 rounded-5">
+                <h1 class="fuente text-wheat" style="font-family: 'Lacquer', cursive;">Backend</h1>
+                <div class="carda  flex border-solid border-2 border-white-700 rounded-5">
                     <div class="cardas  grid gap-3 grid-cols-2 grid-rows-3">
 
                     <button @click="phpe">
@@ -66,8 +66,8 @@
                 </div>
             </div>
             <div class="stack">
-                <h1 class="fuente text-wheat" style="font-family: 'Lacquer', cursive; font-size: 35px;">Extra</h1>
-                <div class="carda  flex border-solid border-2 border-white-700 p-5 rounded-5">
+                <h1 class="fuente text-wheat" style="font-family: 'Lacquer', cursive;">Extra</h1>
+                <div class="carda  flex border-solid border-2 border-white-700 rounded-5">
                     <div class="cardas  grid gap-3 grid-cols-2 grid-rows-3">
 
                     <button @click="githube">
@@ -209,8 +209,14 @@ video{
       opacity: .9;
 
     }
+    .carda{
+      padding: 25px;
+    }
     .stack.fuente h1 {
       padding-bottom: 5px;
+    }
+    div h1.fuente{
+      font-size: 35px;
     }
     h1{
        padding-bottom: 5px;
@@ -248,6 +254,7 @@ video{
     }
     .stack.fuente h1 {
       padding-bottom: 5px;
+      font-size: 35px;
     }
     h1{
        padding-bottom: 5px;
@@ -268,6 +275,30 @@ video{
     }
 }
 @media (max-width: 390px) {
+  .titulo{
+  margin-top: 70px;
+}
+.cardas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+div .carda{
+  width: 100%;
+  padding: 10px;
+}
+div.cardas{
+  width: 100%;
+  margin-bottom: -10px;
+}
+div h1.fuente{
+  font-size: 20px;
+}
+
+
+}
+@media (max-width: 416px) {
 .titulo{
   margin-top: 70px;
 }
@@ -277,12 +308,16 @@ video{
   flex-wrap: wrap;
 }
 
-div.carda{
+div .carda{
   width: 100%;
+  padding: 10px;
 }
 div.cardas{
   width: 100%;
   margin-bottom: -10px;
+}
+div h1.fuente{
+  font-size: 20px;
 }
 
 
