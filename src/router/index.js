@@ -7,7 +7,8 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      component: () => import('../components/hero_section.vue')
+
     },    {
       path: '/',
       name: 'habilidades',

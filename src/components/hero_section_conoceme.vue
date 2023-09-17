@@ -10,7 +10,7 @@
             <nav class=" flex flex-grow justify-end">
                 <ul class="flex text-3xl [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2">
                     <li><a href="https://github.com/Abic26/" target="_blank"><ion-icon name="logo-github" title="logo-github"></ion-icon></a></li>
-                    <li><a href="Andres Felipe Lopez S..pdf" download><ion-icon name="document-attach-outline" title="Curriculo"></ion-icon></a></li>
+                    <li><a class="logo" href="Andres_Felipe_Lopez_S._FULLSTACK.pdf" download><ion-icon name="document-attach-outline" title="Curriculo"></ion-icon></a></li>
                     <li><a href="mailto:abicsupa@gmail.com" target="_blank"><ion-icon name="mail-open-outline"></ion-icon></a></li>
                     <li><a href="https://wa.me/3186078770" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
                 </ul>
@@ -118,7 +118,7 @@ video{
     padding: 40px 70px;
     border-radius: 35px;
     display: flex;
-    flex-wrap: ;
+    /* flex-wrap: ; */
 }
 
 .carta{

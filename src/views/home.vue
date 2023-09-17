@@ -8,15 +8,15 @@
     </div>
 
     <div id="habilidades" class="snap-center overflow-y-hidden overflow-x-hidden">
-        <RouterLink to="habilidades"><hero_section_habilidades/></RouterLink>
+        <hero_section_habilidades/>
     </div> 
 
     <div id="proyectos" class="snap-center overflow-y-hidden overflow-x-hidden">
-        <RouterLink to="proyectos"><hero_section_proyectos/></RouterLink>
+        <hero_section_proyectos/>
     </div>
 
     <div id="conoceme" class="snap-center overflow-y-hidden overflow-x-hidden">
-        <RouterLink to="conoceme"><hero_section_conoceme/></RouterLink>
+        <hero_section_conoceme/>
     </div>
     
 
