@@ -65,14 +65,24 @@ cursor: pointer;
 }
 @media (max-width: 334px) {
 
-img.abicImg{
-  padding-top: 40px;
-  padding-bottom: -20px;
+  .secciones,div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+  }
+  div h1.hero-h1{
+    font-size: 7px;
+  
+  }
+  div .hero-h2 {
+    font-size: 20px;
+  
+  }
+  div .hero-p{
+    font-size: 10px;
 }
-h1.hero-h1{
-  margin-top: -40px;
 
-}
 
  
    
