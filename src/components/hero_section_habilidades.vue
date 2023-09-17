@@ -275,8 +275,8 @@ video{
     }
 }
 @media (max-width: 390px) {
-  .titulo{
-  margin-top: 70px;
+  h1.titulo{
+  margin-top: 30px;
 }
 .cardas{
   display: flex;
@@ -300,7 +300,7 @@ div h1.fuente{
 }
 @media (max-width: 416px) {
 .titulo{
-  margin-top: 70px;
+  margin-top: 30px;
 }
 .cardas{
   display: flex;
