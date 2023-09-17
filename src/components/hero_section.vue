@@ -88,22 +88,27 @@ cursor: pointer;
    
 }
 @media (max-width: 390px) {
+  img.abicImg{
+    margin-top: 10px;
+    margin-bottom: -50px;
+  }
   .secciones,div{
     display: flex;
     flex-direction: column;
     align-items: center;
     align-items: center;
   }
-  div h1.hero-h1{
+  div h1.hero-h1 {
+    
     font-size: 7px;
   
   }
   div .hero-h2 {
-    font-size: 20px;
+    font-size: 25px;
   
   }
-  div .hero-p{
-    font-size: 10px;
+   div .hero-p{
+    font-size: 15px;
 }
 
  
@@ -126,11 +131,11 @@ cursor: pointer;
   
   }
   div .hero-h2 {
-    font-size: 20px;
+    font-size: 25px;
   
   }
    div .hero-p{
-    font-size: 10px;
+    font-size: 15px;
 }
 
  
