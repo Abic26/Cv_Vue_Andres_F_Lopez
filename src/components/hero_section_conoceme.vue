@@ -176,5 +176,168 @@ a:hover{
     opacity: 0.5;
 
 }
-
+@media(max-width:1080px){
+    
+    div.perfil{
+        display:grid;
+        grid-template-rows: repeat(1,1fr);
+        grid-template-columns: repeat(1,1fr);
+        width: 700px;
+        height: 900px;
+        padding-top: 1px;
+        padding-left: 1px;
+        margin-top: -100px;
+    }
+    div.carta{
+        margin-top: 100px;
+        grid-row: 2;
+        grid-column: 1;
+        display: flex;
+        flex-direction: row;
+        margin-left: 35%;
+        height: 200px;
+    }
+    div.carta ul{
+        display: none;
+    }
+    div.carta p.front{
+        display: none;
+    }
+    div.educacion{
+        display: flex;
+        flex-direction:column;
+        align-items: start;
+        grid-row:2/2;
+        grid-column:2/2;
+        width: 800px;
+        /* margin-top: -90px; */
+    }
+    .educacion p{
+        width: 660px;
+    }
+        
+    }
+@media(max-width:768px){
+    
+div.perfil{
+    display:grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(1,1fr);
+    width: 700px;
+    height: 900px;
+    padding-top: 1px;
+    padding-left: 1px;
+    margin-top: -100px;
+}
+div.carta{
+    margin-top: 100px;
+    grid-row: 2;
+    grid-column: 1;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35%;
+    height: 200px;
+}
+div.carta ul{
+    display: none;
+}
+div.carta p.front{
+    display: none;
+}
+div.educacion{
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+    grid-row:2/2;
+    grid-column:2/2;
+    width: 800px;
+    /* margin-top: -90px; */
+}
+.educacion p{
+    width: 660px;
+}
+    
+}
+@media(max-width: 700px){
+    div.perfil{
+        width: 360px;
+        height: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 11px;
+   }
+    div.carta{
+        /* display: none; */
+        position: absolute;
+        margin-top: 770px;
+        width: 170px;
+        height: 200px;
+        margin-left: 90px;
+    }
+    div.carta1{
+        display: flex;
+        width: 340px;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .carta1 p{
+        width: 330px;
+        
+    }
+    div.educacion{
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        /* font-size: 8.5px; */
+    }
+    .educacion{
+        padding-top: 10px;
+        width: 330px;
+        font-size: 11px;
+        line-height: 1.5;
+    }
+    div.skills{
+        padding-top: 10px;
+    }
+}
+@media(max-width: 390px){
+    div.perfil{
+        width: 360px;
+        height: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 11px;
+   }
+    div.carta{
+        /* display: none; */
+        position: absolute;
+        margin-top: 770px;
+        width: 170px;
+        height: 200px;
+        margin-left: 90px;
+    }
+    div.carta1{
+        display: flex;
+        width: 340px;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .carta1 p{
+        width: 330px;
+        
+    }
+    div.educacion{
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        /* font-size: 8.5px; */
+    }
+    .educacion{
+        padding-top: 10px;
+        width: 330px;
+        font-size: 11px;
+        line-height: 1.5;
+    }
+    div.skills{
+        padding-top: 10px;
+    }
+}
 </style>
