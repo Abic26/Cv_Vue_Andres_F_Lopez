@@ -111,7 +111,7 @@ cursor: pointer;
 }
 @media (max-width: 416px) {
   img.abicImg{
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: -50px;
   }
   .secciones,div{
