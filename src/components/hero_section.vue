@@ -109,7 +109,7 @@ cursor: pointer;
  
    
 }
-@media (max-width: 412px) {
+@media (max-width: 416px) {
   img.abicImg{
     margin-top: 30px;
     margin-bottom: -50px;
