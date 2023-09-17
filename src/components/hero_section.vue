@@ -84,16 +84,43 @@ h1.hero-h1{
     align-items: center;
     align-items: center;
   }
-  .hero-h1{
-    font-size: 10px;
+  div h1.hero-h1{
+    font-size: 7px;
   
   }
-  .hero-h2{
-    font-size: 30px;
-  
-  }
-   .hero-p{
+  div .hero-h2 {
     font-size: 20px;
+  
+  }
+  div .hero-p{
+    font-size: 10px;
+}
+
+ 
+   
+}
+@media (max-width: 412px) {
+  img.abicImg{
+    margin-top: 30px;
+    margin-bottom: -50px;
+  }
+  .secciones,div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+  }
+  div h1.hero-h1 {
+    
+    font-size: 7px;
+  
+  }
+  div .hero-h2 {
+    font-size: 20px;
+  
+  }
+   div .hero-p{
+    font-size: 10px;
 }
 
  
