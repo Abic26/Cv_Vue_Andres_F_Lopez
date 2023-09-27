@@ -40,7 +40,29 @@ import { toast } from 'vue3-toastify';
             <div class="card mb-3" style="max-width: 400px;">
                     <div class="image-container">
                     
-                            <h1 class="titulo-carta" style="padding-top: 10px;">Sistema Facturacion Con Vue.js #2</h1> 
+                            <h1 class="titulo-carta" style="padding-top: 10px;">To Do Abic Pwa #2</h1> 
+                            <div class="lenguajes p-2">
+                                <div class="p-1"><button type="button" class="btn bg-success btn-success text-white" style="width: 50px; height: 20px; padding: 0; font-size: 10px;">vue</button></div>
+                                <div class="p-1"><button type="button" class="btn bg-danger btn-danger text-white" style="width: 50px; height: 20px; padding: 0; font-size: 10px;">Sass</button></div>
+                                <div class="p-1"><button type="button" class="btn bg-warning btn-warning text-white" style="width: 50px; height: 20px; padding: 0; font-size: 10px;">javascript</button></div>
+                                <div class="p-1"><button type="button" class="btn bg-success btn-success text-white" style="width: 50px; height: 20px; padding: 0; font-size: 10px;">Pwa</button></div>
+                                <div class="p-1"><button type="button" class="btn bg-orange-400 text-white" style="width: 50px; height: 20px; padding: 0; font-size: 10px;">Firebase</button></div>
+                            </div>
+                        <img src="/ToDoAbic.png" alt="Imagen" class="hover-image bodega">
+                        <div class="text-overlay">
+                            <p>
+                                To Do Pwa es un proyecto que cree con el fin de aplicar mis conocimientos con Vue, a su vez el manejo de el prepocesador materialize y sus estilos convinado con css, estilizando los componentes de vue, se utilizo firebase para gestionar inicio de sesión, registro, informacion de To Do para que cada usuario la pueda gestionar por medio del CRUD para el manejo de los datos</p>
+                                <div class="p-2 enlaces">
+                                    <a href="https://crud-vue-2defe.web.app/login" target="_blank"><ion-icon name="logo-chrome" class="botonCodigos"></ion-icon></a>
+                                    <a href="https://github.com/Abic26/ToDoAbic" target="_blank"><ion-icon name="logo-github" class="botonCodigos"></ion-icon></a>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="card mb-3" style="max-width: 400px;">
+                    <div class="image-container">
+                    
+                            <h1 class="titulo-carta" style="padding-top: 10px;">Sistema Facturacion Con Vue.js #3</h1> 
                             <div class="lenguajes p-2">
                                 <div class="p-1"><button type="button" class="btn bg-success btn-success text-white" style="width: 50px; height: 20px; padding: 0; font-size: 10px;">vue</button></div>
                                 <div class="p-1"><button type="button" class="btn bg-warning btn-warning text-white" style="width: 50px; height: 20px; padding: 0; font-size: 10px;">javascript</button></div>
@@ -63,7 +85,7 @@ import { toast } from 'vue3-toastify';
             <div class="card mb-3" style="max-width: 400px;">
                     <div class="image-container">
                     
-                            <h1 class="titulo-carta" style="padding-top: 10px;"> Generador de gifs PWA #3</h1> 
+                            <h1 class="titulo-carta" style="padding-top: 10px;"> Generador de gifs PWA #4</h1> 
                             <div class="lenguajes p-2">
                                 <div class="p-1"><button type="button" class="btn bg-success btn-success text-white" style="width: 50px; height: 20px; padding: 0; font-size: 10px;">vue</button></div>
                                 <div class="p-1"><button type="button" class="btn bg-warning btn-warning text-white" style="width: 50px; height: 20px; padding: 0; font-size: 10px;">javascript</button></div>
@@ -84,7 +106,7 @@ import { toast } from 'vue3-toastify';
             <div class="card mb-3" style="max-width: 400px;">
                     <div class="image-container" >
                     
-                            <h1 class="titulo-carta" style="padding-top: 10px;"> Pagina Web  #4</h1> 
+                            <h1 class="titulo-carta" style="padding-top: 10px;"> Pagina Web  #5</h1> 
                             <div class="lenguajes p-2">
                                 <div class="p-1"><button type="button" class="btn bg-warning btn-warning text-white" style="width: 50px; height: 20px; padding: 0; font-size: 10px;">javascript</button></div>
                                 <div class="p-1"><button type="button" class="btn bg-success btn-success text-white" style="width: 50px; height: 20px; padding: 0; font-size: 10px;">vue</button></div>
@@ -103,26 +125,7 @@ import { toast } from 'vue3-toastify';
                         </div>
                     </div>
             </div>
-            <div class="card mb-3" style="max-width: 400px;">
-                    <div class="image-container">
-                    
-                            <h1 class="titulo-carta" style="padding-top: 10px;">Sistema de bodegaje #5</h1> 
-                            <div class="lenguajes p-2">
-                                <div class="p-1"><button type="button" class="btn bg-success btn-success text-white" style="width: 50px; height: 20px; padding: 0; font-size: 10px;">html</button></div>
-                                <div class="p-1"><button type="button" class="btn bg-warning btn-warning text-white" style="width: 50px; height: 20px; padding: 0; font-size: 10px;">javascript</button></div>
-                                <div class="p-1"><button type="button" class="btn bg-info btn-info text-white" style="width: 50px; height: 20px; padding: 0; font-size: 10px;">css</button></div>
-                            </div>
-                        <img src="/bodega.png" alt="Imagen" class="hover-image bodega">
-                        <div class="text-overlay">
-                            <p>
-                                Mi sistema de bodegajes el cual se puede aplicar a cualquier tipo de empresa, en este ejempo lo realice a una empresa que maneja una bodega de arroz, el cual se realizo por medio de html, css y fundamentalmente JavaScript para darle funcionalidad a las acciones que tiene esta aplicacion.</p>
-                                <div class="p-2 enlaces">
-                                    <a href="https://abic26.github.io/App_Arroz/" target="_blank"><ion-icon name="logo-chrome" class="botonCodigos"></ion-icon></a>
-                                    <a href="https://github.com/Abic26/App_Arroz.git" target="_blank"><ion-icon name="logo-github" class="botonCodigos"></ion-icon></a>
-                                </div>
-                        </div>
-                    </div>
-            </div>
+
             <div class="card mb-3" style="max-width: 400px;">
                     <div class="image-container">
                     
